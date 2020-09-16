@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#DE7300</color>
+    <!--colorLetras deve fazer contraste com colorAccent-->
+    <color name="colorLetras">#000</color>
+    <color name="colorFundo">#131417</color>
+
+</resources>

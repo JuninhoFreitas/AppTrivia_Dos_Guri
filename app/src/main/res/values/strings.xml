@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DesafioAndroid</string>
+    <string name="nome_projeto">Trivia dos Guri</string>
+    <string name="tema">Escolha o tema das perguntas</string>
+    <string name="pergunta_nome">Qual seu nome?</string>
+    <string name="btnTema">Escolher Tema</string>
+    <string name="btnIniciar">Iniciar</string>
+    <string name="btnSobre">Sobre</string>
+
+    <string name="ckbTema1">Geografia</string>
+    <string name="ckbTema2">História</string>
+    <string name="ckbTema3">Religião</string>
+    <string name="ckbTema4">Matemática</string>
+    <string name="ckbTema5">Informática</string>
+
+    <string name="jogadorName">"Jogador: "</string>
+    <string name="acertos">Acertos: </string>
+    <string name="moedas">Moedas: </string>
+    <string name="resultado_final">Resultado final</string>
+    <string name="btnJogar_Novamente">Jogar novamente</string>
+    <string name="btnMenu_Principal">Menu principal</string>
+    <string name="btnSair">Sair</string>
+    <string name="projeto_concluido">Projeto concluido em 9/2020.</string>
+    <string name="sobre_desenvolvido">Desenvolvido por:\n- Henrique Klein Raymundo.\n- David Ávila de Jesus.\n- João de Freitas Brizolla Junior.</string>
+    <string name="sobre_Orientacao">Sob a orientação de:\n- Marnei Cardoso.</string>
+</resources>

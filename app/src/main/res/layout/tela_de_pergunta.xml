@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFundo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".TelaDePerguntas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="210dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/infoJogador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jogadorName"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtNomeJogador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="nome do jogador"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/infoPontos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/acertos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acertos"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtAcertos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/infoMoedas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/moedas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/moedas"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtMoedas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtPergunta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Quando Jesus subiu aos Céus, sua missão não estava totalmente cumprida, faltava seus discípulos receberem uma promessa dada pelo próprio Messias, qual era a promessa?"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/icones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAjudaPeq"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/ajuda_pequena_indisponivel"
+                android:text="\n       0"
+                android:textColor="@color/colorLetras"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnAjudaMed"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/ajuda_media_indisponivel"
+                android:text="\n       0"
+                android:textColor="@color/colorLetras"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnR1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="20"
+            android:background="@color/colorAccent"
+            android:minHeight="80dp"
+            android:text="Resposta"
+            android:textColor="@color/colorLetras" />
+
+        <Button
+            android:id="@+id/btnR2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="20"
+            android:background="@color/colorAccent"
+            android:minHeight="80dp"
+            android:text="Resposta"
+            android:textColor="@color/colorLetras" />
+
+        <Button
+            android:id="@+id/btnR3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="20"
+            android:background="@color/colorAccent"
+            android:minHeight="80dp"
+            android:text="Resposta"
+            android:textColor="@color/colorLetras" />
+
+        <Button
+            android:id="@+id/btnR4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="20"
+            android:background="@color/colorAccent"
+            android:minHeight="80dp"
+            android:text="Resposta"
+            android:textColor="@color/colorLetras"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

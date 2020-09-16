@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFundo"
+    android:orientation="vertical"
+    tools:context=".TelaResultado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/resultado_final"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Texto resultado"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtAcertos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acertos"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnJogarNovamente"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent"
+            android:text="@string/btnJogar_Novamente"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnMenuPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent"
+            android:text="@string/btnMenu_Principal"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent"
+            android:text="@string/btnSair"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
